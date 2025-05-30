@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario Inventario</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+
+    </head>
+    <body>
+        <main>
+
+            <img src="assets/img/horizontal.png" alt="Logo" width="150"
+                height="50">
+            <!--1. Form Multi-Selezione-->
+            <h1>Formulario</h1>
+
+            <img src="assets/img/Inventario.png" alt="Immagine profilo"
+                width="200" height="100">
+            <h2>Modulo di Contatto</h2>
+            <p>Compila il modulo sottostante per contattarci. I campi
+                contrassegnati con * sono obbligatori.</p>
+            <form action="/submit" method="post">
+                <aside>
+                    <p>Per favore, compila tutti i campi richiesti.</p>
+                    <p>Assicurati di inserire un numero di telefono valido.</p>
+                    <p>Controlla l'indirizzo email prima di inviare il
+                        modulo.</p>
+                        <fieldset>
+                            <legend>Seleziona i tuoi interessi:</legend>
+                            <label for="interest1">
+                                <input type="checkbox" id="interest1"
+                                    name="interests" value="Tecnologia">
+                                Tecnologia
+                            </label>
+                            <label for="interest2">
+                                <input type="checkbox" id="interest2"
+                                    name="interests" value="Arte">
+                                Arte
+                            </label>
+                            <label for="interest3">
+                                <input type="checkbox" id="interest3"
+                                    name="interests" value="Sport">
+                                Sport
+                            </label>
+                            <label for="interest4">
+                                <input type="checkbox" id="interest4"
+                                    name="interests" value="Musica">
+                                Musica
+                            </label>
+                            </fieldset>    
+                                           <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required
+                        placeholder="*Nome">
+                    <label for="surname">Cognome:</label>
+                    <input type="text" id="surname" name="surname" required
+                        placeholder="*Cognome">
+                    <label for="age">Età:</label>
+                    <input type="number" id="age" name="age" min="0"
+                        max="120"
+                        required>
+                    <label for="telephone">Telefono:</label>
+                    <input type="tel" id="telephone" name="telephone"
+                        required placeholder="1234567890">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Messaggio:</label>
+                    <textarea id="message" name="message" rows="4" cols="50"
+                        required></textarea>
+                        <div>
+                    <button type="reset">Cancella tutto</button>
+                    <button type="submit">Invia</button>
+                </div>
+            </aside>
+
+                <!--2. tabella dati complessa-->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dipendenti</th>
+                            <th>Proggeto 1</th>
+                            <th>Proggeto 2</th>
+                            <th>Proggeto 3</th>
+                            <th>Proggeto 4</th>
+                            <th>Proggeto 5</th>
+                            <th>Proggeto 6</th>
+                            <th>Proggeto 7</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mario Rossi</td>
+                            <td>85%</td>
+                            <td></td>
+                            <td>70%</td>
+                            <td>88%</td>
+                            <td>99%</td>
+                            <td>100%</td>
+                            <td>95%</td>
+                        </tr>
+                        <tr>
+                            <td>Lucia Bianchi</td>
+                            <td>66%</td>
+                            <td>95%</td>
+                            <td></td>
+                            <td></td>
+                            <td>100%</td>
+                            <td>90%</td>
+                            <td>80%</td>
+                        </tr>
+                        <tr>
+                            <td>Giovanni Verdi</td>
+                            <td></td>
+                            <td>55%</td>
+                            <td>20%</td>
+                            <td>90%</td>
+                            <td>10%</td>
+                            <td>30%</td>
+                            <td>40%</td>
+                        </tr>
+                        <tr>
+                            <td>Elena Gialli</td>
+                            <td>30%</td>
+                            <td>45%</td>
+                            <td>69%</td>
+                            <td></td>
+                            <td></td>
+                            <td>80%</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Marco Neri</td>
+                            <td>20%</td>
+                            <td></td>
+                            <td>99%</td>
+                            <td>65%</td>
+                            <td>47%</td>
+                            <td>55%</td>
+                            <td>70%</td>
+                        </tr>
+                        <tr>
+                            <td>Anna Blu</td>
+                            <td>74%</td>
+                            <td>12%</td>
+                            <td>35%</td>
+                            <td>69%</td>
+                            <td>45%</td>
+                            <td>80%</td>
+                            <td>90%</td>
+                        </tr>
+
+                        <!--3. Pagina blog semantica-->
+                        <a href="mailto:
+                            </form>
+                        </main>

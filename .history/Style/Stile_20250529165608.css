@@ -1,0 +1,42 @@
+/* Tutto il corpo */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+} 
+/* testa */
+header{
+    background-color: #724caf;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.logo {
+  display: flex;
+  align-items: riht; 
+  flex-direction: column; 
+  justify-content: center; 
+  padding: 10px;
+       
+}
+/* Alineación vertical */
+/* Centrado horizontal */
+/* Separación del contenido siguiente */
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+main{
+    padding: 100px;
+    border-left: 50%;
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: auto;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}

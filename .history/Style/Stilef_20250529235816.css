@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Variables de color */
+:root {
+  --gris-oscuro: #333333;
+  --gris-claro: #f2f2f2;
+  --aguamarina: #7fffd4;
+  --blanco: #ffffff;
+  --negro: #000000;
+}
+
+/* Reset de estilos y box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo general del cuerpo */
+body {
+  font-family: 'Book Antiqua', sans-serif;
+  background-color: #b7b7b7;
+  color: #55565a;
+  line-height: 1.6;
+  padding: 0px;
+}
+
+/* Encabezado y navegación */
+header {
+  background-color: rgb(33, 92, 108);
+  color: rgb(110, 213, 216);
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: var(--blanco);
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: var(--aguamarina);
+  color: var(--negro);
+  border-radius: 5px;
+}
+
+/* Contenedor principal */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #accacd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Secciones y artículos */
+section {
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--gris-oscuro);
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Formulario */
+form {
+  display: grid;
+  gap: 15px;
+}
+
+fieldset {
+  border: 1px solid #3ea0a7;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+legend {
+  font-weight: bold;
+  color: #637cb2;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='tel'],
+input[type='email'],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(12, 45, 55);
+  border-radius: 5px;
+  background-color: #bed5dfcf;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #4141a8;
+  outline: none;
+}
+
+/* Validación de formularios */
+input:required:invalid,
+textarea:required:invalid {
+  border-color: rgb(56, 158, 174);
+}
+
+input:required:valid,
+textarea:required:valid {
+  border-color: green;
+}
+
+/* Botones */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(78, 202, 211);
+  color: var(--negro);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2d9e9e;
+  color: #ffffff;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid rgb(25, 43, 102);
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(21, 52, 65);
+  color: #ffffff;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: gray;
+}
+
+/* Accesibilidad y atributos ARIA */
+[aria-hidden='true'] {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+/* Media Queries para responsividad */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input[type='text'],
+  input[type='number'],
+  input[type='tel'],
+  input[type='email'],
+  textarea,
+  select {
+    font-size: 1rem;
+  }
+}
+

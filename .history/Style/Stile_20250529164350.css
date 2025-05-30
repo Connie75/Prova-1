@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #724caf;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+main{
+    padding: 20px;
+    center_
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: auto;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}

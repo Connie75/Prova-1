@@ -1,0 +1,40 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-color: #724caf;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.logo {
+  display: flex;
+  align-items: riht; /* Alineación vertical */
+  flex-direction: column; /* Alineación vertical */
+  justify-content: center; /* Centrado horizontal */
+  padding: 10px;
+  background-color: #f0f0f0; /* Fondo suave opcional */
+  border-radius: 8px;        /* Bordes redondeados */
+  margin-bottom: 20px;       /* Separación del contenido siguiente */
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+main{
+    padding: 100px;
+    border-left: 50%;
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: auto;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}

@@ -1,0 +1,25 @@
+/* Tutto il corpo */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+Esercizio #2
+Estendi l'esercizio precedente applicando concetti più avanzati. L'obiettivo è creare una pagina con:
+Layout responsive
+Utilizza unità relative (vh, vw, %) per garantire che la
+pagina si adatti a diverse dimensioni dello schermo
+(consiglio: parti dalla visione mobile!).
+Box model avanzato
+Applica padding, margin e border in modo
+appropriato, utilizzando box-sizing: border-box per
+un controllo preciso delle dimensioni alla radice.
+Posizionamento
+Usa almeno un elemento con position: relative e un
+elemento figlio con position: absolute per creare un
+layout più complesso.
+Pseudo-classi
+Implementa effetti hover sui link e sui pulsanti per
+migliorare l'esperienza utente.
+Continua ad applicare la convenzione BEM per tutti i componenti della pagina, prestando particolare attenzione alla
+specificità CSS e all'organizzazione del codice. Implementa tutto ciò che ritieni opportuno per migliorare il risultato finale.
